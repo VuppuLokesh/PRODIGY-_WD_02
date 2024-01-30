@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(127, 255, 159);
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+.display {
+    font-size: 2em;
+    margin: 10px;
+}
+
+button {
+    font-size: 1em;
+    margin: 5px;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
